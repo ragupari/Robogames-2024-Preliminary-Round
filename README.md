@@ -21,13 +21,14 @@ The simulated demostration of the bot in the test environment can be watched [he
 
 **Instructions:**
 
-1.  Open the "RoboGames 2024 University Category(team_name).wbt" file in Webots.
-2.  Run the simulation.
+1.  Open the "****.wbt" world file and get "****.py" the controller file.
+2.  Run the simulation in Webots.
 3.  The robot should navigate the maze and stop after reaching the Green wall.
 
 **Dependencies:**
 
 *   Webots
+*   Python
 
 **Contributors:**
 
