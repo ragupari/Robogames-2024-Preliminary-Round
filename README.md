@@ -1,6 +1,7 @@
 # RoboGames 2024 University Category
 
 This repository contains the Webots world file and robot code for the RoboGames 2024 University Category challenge.
+Read the preliminary round instructions [here](./Instructions.pdf)
 The simulated demostration of the bot in the test environment can be watched [here.](https://www.youtube.com/watch?v=2gQ7UXonikw&sttick=0)
 
 ![Bot demo](./Demo.png)
