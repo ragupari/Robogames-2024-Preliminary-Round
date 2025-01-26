@@ -1,0 +1,349 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Roughcast.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.33355343611732974 0.3335549862148957 0.8817500646019273 1.696315959137955
+  position 0.3004618084305137 -2.7987514162769145 2.567872157320638
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.00543596 0.00543598 0
+  floorSize 2.5 2.5
+  floorAppearance Parquetry {
+    type "dark strip"
+  }
+}
+Wall {
+  translation -0.507517 -0.752934 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(1)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation 0.131172 0.491698 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(12)"
+  size 1.25 0.01 0.1
+}
+Wall {
+  translation -0.126758 -0.503187 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(20)"
+  size 0.75 0.01 0.1
+}
+Wall {
+  translation -0.126758 -0.503187 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(34)"
+  size 0.75 0.01 0.1
+}
+Wall {
+  translation -0.253682 0.999375 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(19)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation -0.87 0.74 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(3)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation -1.12407 -0.504012 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(4)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 1.12977 -0.749874 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(5)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 1.12156 0.754049 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(8)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 1.12567 0.49998 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(9)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 0.3744 0.248873 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(7)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation -1.12816 -1.00395 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(30)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation -0.620254 -0.245395 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(6)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 0.870023 0.995144 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(16)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 0.497458 -0.748975 0
+  name "wall(25)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 0.747202 -0.495136 0
+  name "wall(40)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 1.00104 -0.24539 0
+  name "wall(42)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 1.00104 -0.24539 0
+  name "wall(41)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 0.247712 -0.245392 0
+  name "wall(35)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 0.00615525 0.000257995 0
+  name "wall(32)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 0.12079 0.741304 0
+  name "wall(28)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 0.555938 -0.483286 1.24789e-13
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "Magenta"
+  size 0.1 0.01 0.1
+  appearance Roughcast {
+    colorOverride 1 0 1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.0505142 -1.24455 1.24789e-13
+  name "Yellow"
+  size 0.1 0.01 0.1
+  appearance Roughcast {
+    colorOverride 1 1 0
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.945928 -0.236817 1.24789e-13
+  name "Brown"
+  size 0.1 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.647059 0.411765 0.117647
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.690094 0.480761 1.24789e-13
+  name "Red"
+  size 0.1 0.01 0.1
+  appearance Roughcast {
+    colorOverride 1 0 0
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -1.12569 -0.495775 1.24789e-13
+  name "Green(1)"
+  size 0.1 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0 1 0
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.87 0.25 0
+  rotation 0.7071067811865475 0 0.7071067811865475 0
+  name "wall(43)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 0.494374 0.994895 0
+  rotation 0 0 1 1.57
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 1.00205 0.00410729 0
+  rotation 0 0 1 1.57
+  name "wall(23)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 0.502566 -0.249733 0
+  rotation 0 0 1 1.57
+  name "wall(36)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation -0.00101955 0.487217 0
+  rotation 0 0 1 1.57
+  name "wall(33)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation -0.242577 0.872069 0
+  rotation 0 0 1 1.57
+  name "wall(21)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 1.00615 -0.872047 0
+  rotation 0 0 1 1.57
+  name "wall(10)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 0.744125 -0.872049 0
+  rotation 0 0 1 1.57
+  name "wall(39)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 0.494381 -1.1177 0
+  rotation 0 0 1 1.57
+  name "wall(38)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation -0.500505 -1.12589 0
+  rotation 0 0 1 1.57
+  name "wall(37)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation -0.250761 -0.872052 0
+  rotation 0 0 1 1.57
+  name "wall(18)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 0.252821 0.122836 0
+  rotation 0 0 1 1.57
+  name "wall(17)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation -1 1.13 0
+  rotation 0 0 1 1.57
+  name "wall(29)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation -0.0051109 -0.997708 0
+  rotation 0 0 1 1.57
+  name "wall(2)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 0.748213 0.500763 0
+  rotation 0 0 1 1.57
+  name "wall(13)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation -0.24667 -0.125649 0
+  rotation 0 0 1 1.57
+  name "wall(24)"
+  size 0.75 0.01 0.1
+}
+Wall {
+  translation 0.244633 -0.747962 0
+  rotation 0 0 1 1.57
+  name "wall(27)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation -0.50051 0.255109 0
+  rotation 0 0 1 1.57
+  name "wall(31)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation -0.746159 -0.49822 0
+  rotation 0 0 1 1.57
+  name "wall(15)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation -0.750256 0.750504 0
+  rotation 0 0 1 1.57
+  name "wall(14)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation -1 0.12 0
+  rotation 0 0 1 1.57
+  name "wall(11)"
+  size 1.25 0.01 0.1
+}
+E-puck {
+  hidden position_0_0 18751.41936386517
+  hidden position_0_1 21291.680356567456
+  hidden linearVelocity_0 0.025319046537536062 0.13214309774095187 -0.00012106948875477834
+  hidden angularVelocity_0 -0.5781768699791917 0.10646387669206558 -0.007289433592962655
+  hidden rotation_1 0 1 0 2.394407241284406
+  hidden linearVelocity_1 0.026032157261547863 0.13486127941861295 -2.4124504919993594e-05
+  hidden angularVelocity_1 -6.743494322048412 1.3012915766392468 -0.02125786516885329
+  hidden rotation_2 0 1 0 4.248535843017345
+  hidden linearVelocity_2 0.02562075693944399 0.1349438516990079 -1.530204024616439e-05
+  hidden angularVelocity_2 -6.746766883986146 1.284128054190117 -0.011210482725201233
+  translation -0.4288428615503007 0.3267736559845707 -7.84318808434957e-05
+  rotation -0.0014141153540817638 0.000983097210672702 0.9999985168977199 1.3824385743913161
+  name "e-puck(1)"
+  controller "robo"
+  controllerArgs [
+    ""
+  ]
+  camera_fieldOfView 0.1
+  camera_height 67
+  camera_rotation 0 0 1 1.4189574679021002
+}
